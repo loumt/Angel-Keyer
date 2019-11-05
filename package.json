@@ -1,0 +1,21 @@
+{
+  "name": "angel-keyer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w robotjs",
+    "build": "node-gyp rebuild --runtime=electron --target=6.0.7 --disturl=http://atom.io/download/atom-shell --abi=73"
+  },
+  "author": "lootyloumt@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.5.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "electron": "4.0.8",
+    "electron-rebuild": "^1.8.6"
+  }
+}
