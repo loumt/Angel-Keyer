@@ -15,7 +15,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "electron": "4.0.8",
+    "electron": "9.1.0",
     "electron-rebuild": "^1.8.6"
   }
 }
